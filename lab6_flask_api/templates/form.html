@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Form</title>
+</head>
+<body>
+    <h2>Submit Student Data</h2>
+    <form method="POST" action="/student">
+        <label>Student ID:</label><br>
+        <input type="number" name="student_id" required><br><br>
+
+        <label>First Name:</label><br>
+        <input type="text" name="first_name" required><br><br>
+
+        <label>Last Name:</label><br>
+        <input type="text" name="last_name" required><br><br>
+
+        <label>Date of Birth (YYYY-MM-DD):</label><br>
+        <input type="text" name="dob" required><br><br>
+
+        <label>Amount Due:</label><br>
+        <input type="number" step="0.01" name="amount_due" required><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
